@@ -22,7 +22,7 @@
 <body>
     <h1>Forms Korea</h1>
     <img class="logo" src="/img/flogo.png" /><br />
-    <span class="comming">Comming Soon... 2021. 10.</span><br />
+    <span class="comming">Comming Soon... 2021. 11.</span><br />
     <address>
         <dl>
             <dt>Tel.</dt>
