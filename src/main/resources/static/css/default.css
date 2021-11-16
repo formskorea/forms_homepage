@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+
+body {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    font-family: '맑은고딕', 'Malgun Gothic', '돋움', Dotum, '굴림', Gulim, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.7em;
+    word-spacing: 0.1em;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    min-height: 100% !important;
+    text-align: center;
+}
+
+h1 {
+    display: none;
+}
+
+img.logo {
+    margin-top: 100px;
+    width: 512px;
+}
+
+span.comming {
+    clear: both;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Do Hyeon';
+}
+
+address {
+    font-size: 20px;
+    font-family: 'Do Hyeon';
+    margin-top: 40px;
+    clear: both;
+    display: inline-block;
+}
+
+address dl, address dl dt, address dl dd {
+    float: left;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+address dl dt {
+    width: 100px;
+}
+
+@media all and (max-width: 512px) {
+    body {
+        font-size: 13px;
+    }
+
+    img.logo {
+        width: 100%;
+    }
+
+    span.comming {
+        font-size: 25px;
+    }
+
+    address dl {
+        width: 100%;
+    }
+
+    address dl dd {
+        text-align: left;
+        width: 200px;
+    }
+
+    address {
+        font-size: 16px;
+    }
+
+
+}
+
+
