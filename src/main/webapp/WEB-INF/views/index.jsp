@@ -22,7 +22,8 @@
 <body>
     <h1>Forms Korea</h1>
     <img class="logo" src="/img/flogo.png" /><br />
-    <span class="comming">Comming Soon... 2021. 11.</span><br />
+    <span class="comming">Comming Soon... 2022. 2.</span><br />
+    <button class="btn btn-default gogosyd">www.sydream.biz 이동</button><br />
     <address>
         <dl>
             <dt>Tel.</dt>
@@ -33,4 +34,12 @@
     </address><br />
     <span class="copy">&copy; 2021. formskorea.</span>
 </body>
+<script>
+$(document).ready(function(){
+    $("button.btn").click(function(e){
+        location.href = "https://www.sydream.biz/";
+    });
+});
+
+</script>
 </html>
